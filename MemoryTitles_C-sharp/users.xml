@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<User xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_username>sda</m_username>
+  <m_picture>D:\Facultate\c++\MemoryTitles_C-sharp\MemoryTitles_C-sharp\images\1.png</m_picture>
+  <m_gamesPlayed>0</m_gamesPlayed>
+  <m_gamesWon>0</m_gamesWon>
+</User>

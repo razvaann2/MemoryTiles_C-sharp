@@ -1,0 +1,39 @@
+﻿<Window x:Class="MemoryTitles_C_sharp.GameSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryTitles_C_sharp"
+        mc:Ignorable="d"
+        Title="GameSettings" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\Facultate\c++\MemoryTitles_C-sharp\MemoryTitles_C-sharp\Resources\Background_photo.png">
+
+        </ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Button Content="Default&#xD;&#xA;" HorizontalAlignment="Left" Margin="75,300,0,0" VerticalAlignment="Top" Height="74" Width="168" Click="Button_Default_Click" FontSize="20" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#BFFF2811" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Custom" HorizontalAlignment="Left" Margin="550,300,0,0" VerticalAlignment="Top" Width="168" Height="74" Click="Button_Custom_Click" FontSize="20" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#BFFF2811" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock Text="Rows:" Margin="554,195,0,0" RenderTransformOrigin="-0.246,-0.81" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#80FFFFFF" FontSize="20" FontWeight="Bold" />
+        <TextBox x:Name="txtRows" Text="3" Margin="670,195,82,186" FontSize="20" FontWeight="Bold" Background="#7FFFFFFF" />
+        <TextBlock Text="Columns:" Margin="554,235,0,0" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#80FFFFFF" FontSize="20" FontWeight="Bold" />
+        <TextBox x:Name="txtColumns" Text="3" Margin="670,241,82,139" FontSize="20" FontWeight="Bold" Background="#7FFFFFFF" />
+        <TextBlock HorizontalAlignment="Left" Margin="75,174,0,0" TextWrapping="Wrap" Text="Press &quot;Default&quot; for a 5x5 game board." VerticalAlignment="Top" Height="96" Width="116" FontSize="18" FontWeight="Bold" Background="#80FFFFFF" />
+        <TextBlock HorizontalAlignment="Left" Margin="400,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="131" Width="145" FontSize="18" FontWeight="Bold" Background="#80FFFFFF"><Run Text="Press &quot;Custom&quot; for a custom game board."/><LineBreak/><Run Text="Min value: 2;"/><LineBreak/><Run Text="Max value: 7"/><LineBreak/><Run Text=";"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+
+    </Grid>
+</Window>

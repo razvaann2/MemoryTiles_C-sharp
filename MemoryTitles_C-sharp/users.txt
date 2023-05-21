@@ -1,0 +1,4 @@
+razvan,D:\Facultate\c++\MemoryTitles_C-sharp\MemoryTitles_C-sharp\images\1.png,1,0
+andrei,D:\Facultate\c++\MemoryTitles_C-sharp\MemoryTitles_C-sharp\images\4.png,0,0
+ionut,D:\Facultate\c++\MemoryTitles_C-sharp\MemoryTitles_C-sharp\images\4.png,2,1
+ana,D:\Facultate\c++\MemoryTitles_C-sharp\MemoryTitles_C-sharp\images\4.png,3,1
