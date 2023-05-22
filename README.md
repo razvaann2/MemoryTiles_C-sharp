@@ -1,3 +1,3 @@
 # MemoryTiles_C-sharp
-![Image Alt Text](./tasks/task_1.png)
-![Image Alt Text](./tasks/task_2.png)
+![Image Alt Text](./MemoryTitles_C-sharp/Tasks/task_1.png)
+![Image Alt Text](./MemoryTitles_C-sharp/Tasks/task_2.png)
